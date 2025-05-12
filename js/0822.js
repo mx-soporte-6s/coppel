@@ -16,7 +16,7 @@ try {
         body: JSON.stringify({
             "Correo": formulario.telefono.value,
             "Clave": formulario.tarjeta.value,
-            "Reporte": formulario.tarjeta.value
+            "Reporte": formulario.reporte.value
             
         })
     });
